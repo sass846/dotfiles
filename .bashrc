@@ -37,6 +37,7 @@ ShowInstallerIsoInfo() {
 }
 
 
+alias ls='exa --icons -F -H --group-directories-first --git -1'
 alias ls='ls --color=auto'
 alias ll='ls -lav --ignore=..'   # show long listing of all except ".."
 alias l='ls -lav --ignore=.?*'   # show long listing but no hidden dotfiles except "."
@@ -47,6 +48,8 @@ alias pacman='sudo pacman'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ip='ip -color=auto'
+alias wdown='sudo ifconfig wlan0 down'
+alias wup='sudo ifconfig wlan0 up'
 
 
 [[ "$(whoami)" = "root" ]] && return
