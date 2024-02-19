@@ -8,6 +8,7 @@
 HISTSIZE= HISTFILESIZE= 
 shopt -s autocd
 eval "$(starship init bash)"
+eval "$(zoxide init bash)"
 export TERM=xterm-256color
 export PATH="/home/stryder/.local/bin:$PATH"
 
