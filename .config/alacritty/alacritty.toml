@@ -79,10 +79,10 @@ opacity = 0.9
 
 [font]
 
-normal.family = "ComicShannsMonoNerdFont"
-bold.family = "ComicShannsMonoNerdFont"
-italic.family = "ComicShannsMonoNerdFont"
-bold_italic.family = "ComicShannsMonoNerdFont"
+normal.family = "JetBrainsMonoNLNerdFont" 
+bold.family ="JetBrainsMonoNLNerdFont" 
+italic.family ="JetBrainsMonoNLNerdFont" 
+bold_italic.family = "JetBrainsMonoNLNerdFont"
 
 size = 15.0
 
