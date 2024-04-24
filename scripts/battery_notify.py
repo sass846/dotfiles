@@ -47,11 +47,11 @@ def main():
 
             prev_ac_status = ac_status
 
-        if capacity < THRESHOLD_LOW:
+        if capacity < THRESHOLD_LOW and ac_status == 0:
             send_notification(f"{capacity}% \nBatter low!!!\nPlease plug in your charger.","--urgency=critical")
-        elif capacity < THRESHOLD_CRITICAL:
+        elif capacity < THRESHOLD_CRITICAL and ac_status == 0:
             send_notification(f"{capacity}% \nBattery critical!!!\nPlease plug in your charger.","--urgency=critical")
-        elif capacity > THRESHOLD_HIGH:
+        elif capacity > THRESHOLD_HIGH and ac_status == 1:
             send_notification(f"{capacity}% \nBattery high!!!\nPlease unplug your charger.")
 
         time.sleep(300)
