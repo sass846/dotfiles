@@ -12,7 +12,6 @@ eval "$(zoxide init bash)"
 export TERM=xterm-256color
 export PATH="/home/stryder/.local/bin:$PATH"
 
-
 [[ -f ~/.welcome_screen ]] && . ~/.welcome_screen
 
 _set_liveuser_PS1() {
@@ -52,7 +51,6 @@ alias grep='grep --color=auto'
 alias ip='ip -color=auto'
 alias wdown='sudo ifconfig wlan0 down'
 alias wup='sudo ifconfig wlan0 up'
-alias minecraft='java -jar /home/stryder/Desktop/TLauncher-2.895.jar'
 
 
 [[ "$(whoami)" = "root" ]] && return
@@ -108,7 +106,3 @@ export LESS='-R --use-color -Dd+r$Du+b$'
 # alias pacdiff=eos-pacdiff
 ################################################################################
 
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

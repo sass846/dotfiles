@@ -14,5 +14,3 @@ dunst &
 
 #Turn off screen blanking
 xset s off -dpms
-
-/usr/bin/python3 /home/stryder/scripts/battery_notify.py
