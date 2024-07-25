@@ -1,81 +1,125 @@
-[[colors.indexed_colors]]
-color = "#FAB387"
-index = 16
+# [[colors.indexed_colors]]
+# color = "#FAB387"
+# index = 16
 
-[[colors.indexed_colors]]
-color = "#F5E0DC"
-index = 17
+# [[colors.indexed_colors]]
+# color = "#F5E0DC"
+# index = 17
 
-[colors.bright]
-black = "#585B70"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#A6ADC8"
-yellow = "#F9E2AF"
+# [colors.bright]
+# black = "#585B70"
+# blue = "#89B4FA"
+# cyan = "#94E2D5"
+# green = "#A6E3A1"
+# magenta = "#F5C2E7"
+# red = "#F38BA8"
+# white = "#A6ADC8"
+# yellow = "#F9E2AF"
 
-[colors.cursor]
-cursor = "#F5E0DC"
-text = "#1E1E2E"
+# [colors.cursor]
+# cursor = "#F5E0DC"
+# text = "#1E1E2E"
 
-[colors.dim]
-black = "#45475A"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#BAC2DE"
-yellow = "#F9E2AF"
+# [colors.dim]
+# black = "#45475A"
+# blue = "#89B4FA"
+# cyan = "#94E2D5"
+# green = "#A6E3A1"
+# magenta = "#F5C2E7"
+# red = "#F38BA8"
+# white = "#BAC2DE"
+# yellow = "#F9E2AF"
 
-[colors.hints.end]
-background = "#A6ADC8"
-foreground = "#1E1E2E"
-
-[colors.hints.start]
-background = "#F9E2AF"
-foreground = "#1E1E2E"
-
-[colors.normal]
-black = "#45475A"
-blue = "#89B4FA"
-cyan = "#94E2D5"
-green = "#A6E3A1"
-magenta = "#F5C2E7"
-red = "#F38BA8"
-white = "#BAC2DE"
-yellow = "#F9E2AF"
-
-[colors.primary]
-background = "#1E1E2E"
-bright_foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-foreground = "#CDD6F4"
-
-[colors.search.focused_match]
-background = "#A6E3A1"
-foreground = "#1E1E2E"
-
-# [colors.search.footer_bar]
+# [colors.hints.end]
 # background = "#A6ADC8"
 # foreground = "#1E1E2E"
 
-[colors.search.matches]
-background = "#A6ADC8"
-foreground = "#1E1E2E"
+# [colors.hints.start]
+# background = "#F9E2AF"
+# foreground = "#1E1E2E"
 
-[colors.selection]
-background = "#F5E0DC"
-text = "#1E1E2E"
+# [colors.normal]
+# black = "#45475A"
+# blue = "#89B4FA"
+# cyan = "#94E2D5"
+# green = "#A6E3A1"
+# magenta = "#F5C2E7"
+# red = "#F38BA8"
+# white = "#BAC2DE"
+# yellow = "#F9E2AF"
 
-[colors.vi_mode_cursor]
-cursor = "#B4BEFE"
-text = "#1E1E2E"
+# [colors.primary]
+# background = "#1E1E2E"
+# bright_foreground = "#CDD6F4"
+# dim_foreground = "#CDD6F4"
+# foreground = "#CDD6F4"
+
+# [colors.search.focused_match]
+# background = "#A6E3A1"
+# foreground = "#1E1E2E"
+
+# # [colors.search.footer_bar]
+# # background = "#A6ADC8"
+# # foreground = "#1E1E2E"
+
+# [colors.search.matches]
+# background = "#A6ADC8"
+# foreground = "#1E1E2E"
+
+# [colors.selection]
+# background = "#F5E0DC"
+# text = "#1E1E2E"
+
+# [colors.vi_mode_cursor]
+# cursor = "#B4BEFE"
+# text = "#1E1E2E"
+colors.draw_bold_text_with_bright_colors = true
+
+# Cyberpunk-Neon colours
+[colors.primary]
+background = '0x000000'
+# background = '0x000b1e'
+foreground = '0x0abdc6'
+
+# Uncomment the following block if you want to specify cursor colors
+# [colors.cursor]
+# text = '0x2e2e2d'
+# cursor = '0xffffff'
+
+[colors.normal]
+black = '0x123e7c'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x123e7c'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
+
+[colors.bright]
+black = '0x1c61c2'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x00ff00'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
+
+[colors.dim]
+black = '0x1c61c2'
+red = '0xff0000'
+green = '0xd300c4'
+yellow = '0xf57800'
+blue = '0x123e7c'
+magenta = '0x711c91'
+cyan = '0x0abdc6'
+white = '0xd7d7d5'
 
 [window]
-opacity = 0.9
+opacity = 1.0
+padding = { x = 32, y = 32}
+dynamic_title = false
 
 [font]
 
@@ -84,5 +128,7 @@ bold.family ="JetBrainsMonoNLNerdFont"
 italic.family ="JetBrainsMonoNLNerdFont" 
 bold_italic.family = "JetBrainsMonoNLNerdFont"
 
-size = 15.0
+size = 12.0
 
+[selection]
+save_to_clipboard = true
